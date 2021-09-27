@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31005.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UbiqSecurity.Fpe", "src\ubiqsecurity.fpe\UbiqSecurity.Fpe.csproj", "{E4EFFC3F-23EF-4343-8364-5C9C1223215D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{B8BFE2E6-92F8-47C6-9664-5F48F9F6DA02}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UbiqSecurity.Fpe.UnitTests", "tests\UbiqSecurity.Fpe.UnitTests\UbiqSecurity.Fpe.UnitTests.csproj", "{F7EBDC80-82C5-44F6-9523-AD3932683ACC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E4EFFC3F-23EF-4343-8364-5C9C1223215D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4EFFC3F-23EF-4343-8364-5C9C1223215D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4EFFC3F-23EF-4343-8364-5C9C1223215D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4EFFC3F-23EF-4343-8364-5C9C1223215D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7EBDC80-82C5-44F6-9523-AD3932683ACC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7EBDC80-82C5-44F6-9523-AD3932683ACC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7EBDC80-82C5-44F6-9523-AD3932683ACC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7EBDC80-82C5-44F6-9523-AD3932683ACC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F7EBDC80-82C5-44F6-9523-AD3932683ACC} = {B8BFE2E6-92F8-47C6-9664-5F48F9F6DA02}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B45FF4A7-8FF9-422C-9C1C-2EAF193010B8}
+	EndGlobalSection
+EndGlobal
