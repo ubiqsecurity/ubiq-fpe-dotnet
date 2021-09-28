@@ -5,9 +5,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTitle("UbiqSecurity.Fpe.UnitTests")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("HP Inc.")]
 [assembly: AssemblyProduct("UbiqSecurity.Fpe.UnitTests")]
-[assembly: AssemblyCopyright("Copyright © HP Inc. 2021")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 

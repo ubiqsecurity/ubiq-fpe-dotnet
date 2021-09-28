@@ -27,7 +27,7 @@ namespace UbiqSecurity.Fpe
 		/// </summary>
 		/// <param name="str">the numerical value to be converted</param>
 		/// <param name="alpha">alphabet consists of single-byte symbols</param>
-		/// <returns>he numerical value of the str pattern position found in the alphabet</returns>
+		/// <returns>the numerical value of the str pattern position found in the alphabet</returns>
 		public static BigInteger __bigint_set_str(string str, string alpha)
 		{
 			int len = str.Length;
