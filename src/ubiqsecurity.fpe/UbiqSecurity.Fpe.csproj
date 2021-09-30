@@ -3,6 +3,23 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <RootNamespace>UbiqSecurity.Fpe</RootNamespace>
+
+    <PackageId>Ubiq-Security-Fpe</PackageId>
+    <Company>Ubiq Security, Inc.</Company>
+    <Product>Ubiq-Security-Fpe</Product>
+    <Description>DotNet Client library for Format Preserving Encryption</Description>
+    <PackageProjectUrl>https://gitlab.com/ubiqsecurity/ubiq-fpe-dotnet</PackageProjectUrl>
+    <RepositoryUrl>https://gitlab.com/ubiqsecurity/ubiq-fpe-dotnet.git</RepositoryUrl>
+    <PackageTags>ubiq cryptography fpe efpe ff1 ff3</PackageTags>
+    <RepositoryType>git</RepositoryType>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Version>0.0.1</Version>
+    <PackageLicense>https://choosealicense.com/licenses/mit/</PackageLicense>
+    <PackageReleaseNotes>Initial Version</PackageReleaseNotes>
+    <Copyright>Copyright 2021- Ubiq Security, Inc.</Copyright>
+    <PackageLicenseUrl>https://choosealicense.com/licenses/mit/</PackageLicenseUrl>
+
+
   </PropertyGroup>
 
   <ItemGroup>
