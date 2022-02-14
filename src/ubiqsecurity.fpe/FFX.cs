@@ -117,12 +117,6 @@ namespace UbiqSecurity.Fpe
 		/// </summary>
 		protected void Ciph(byte[] dst, int doff, byte[] src, int soff)
 		{
-			if (src.Length - soff != _cipher.GetBlockSize())
-			{
-				throw new ArgumentException(FPEExceptionConstants.InvalidSourceLength);
-
-			}
-
 			Prf(dst, doff, src, soff);
 		}
 
