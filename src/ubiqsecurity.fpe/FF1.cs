@@ -169,7 +169,7 @@ namespace UbiqSecurity.Fpe
 				}
 
 				// Step 6ii
-				Prf(R, 0, PQ, 0);
+				Prf(R, 0, PQ, 0, PQ.Length);
 
 				// Step 6iii
 				// if r is greater than 16, fill the subsequent blocks

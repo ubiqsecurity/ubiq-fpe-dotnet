@@ -95,14 +95,20 @@ namespace UbiqSecurity.Fpe
 		/// location but may not overlap, otherwise. dst must point to a
 		/// location at least 16 bytes long
 		/// </summary>
-		protected void Prf(byte[] dst, int doff, byte[] src, int soff)
+		protected void Prf(byte[] dst, int doff, byte[] src, int soff, int len)
 		{
 			if ((src.Length - soff) % _cipher.GetBlockSize() != 0)
 			{
 				throw new ArgumentException(FPEExceptionConstants.InvalidSourceLength);
 			}
 
-			for (int i = 0; i < src.Length; i += dst.Length)
+            // Some time, we want to run through process block for the entire src
+            // sometimes just one block of the src, regardless of the length.
+            // In cases where only one block needs to be processed, len would be
+            // block size and will terminate the look.  In othercases, len will
+            // be the size of the src but len - soff will terminate that.  however
+            // cannot easily combine both checks into a single math equation.
+            for (int i = 0; i < len && i < src.Length - soff; i += _cipher.GetBlockSize())
 			{
 				_cipher.ProcessBlock(src, soff + i, dst, doff);
 			}
@@ -117,7 +123,7 @@ namespace UbiqSecurity.Fpe
 		/// </summary>
 		protected void Ciph(byte[] dst, int doff, byte[] src, int soff)
 		{
-			Prf(dst, doff, src, soff);
+			Prf(dst, doff, src, soff, 16);
 		}
 
 		/// <summary>
