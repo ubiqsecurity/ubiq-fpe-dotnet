@@ -13,10 +13,10 @@
     <PackageTags>ubiq cryptography fpe efpe ff1 ff3</PackageTags>
     <RepositoryType>git</RepositoryType>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Version>0.0.1</Version>
+    <Version>0.0.2</Version>
     <PackageLicense>https://choosealicense.com/licenses/mit/</PackageLicense>
     <PackageReleaseNotes>Initial Version</PackageReleaseNotes>
-    <Copyright>Copyright 2021- Ubiq Security, Inc.</Copyright>
+    <Copyright>Copyright 2021-2022 Ubiq Security, Inc.</Copyright>
     <PackageLicenseUrl>https://choosealicense.com/licenses/mit/</PackageLicenseUrl>
 
 
